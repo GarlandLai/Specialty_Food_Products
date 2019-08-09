@@ -1,11 +1,11 @@
 <h2>Edit your review!</h2>
 
-<%= form_for [@product, review] do |f| %>
-  <%= f.label(:name) %>
-  <%= f.text_field(:name, :string) %>
-  <%= f.label(:content_body) %>
-  <%= f.text_area(:content_body, :string) %>
-  <%= f.label(:rating) %>
-  <%= f.text_field(:rating, :integer) %>
+<%= form_for [@product, @review] do |f| %>
+  <%= f.label:name %>
+  <%= f.text_field:name%>
+  <%= f.label:content_body %>
+  <%= f.text_area:content_body%>
+  <%= f.label:rating %>
+  <%= f.text_field:rating%>
   <%= f.submit %>
 <%end %>

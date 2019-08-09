@@ -7,15 +7,19 @@
   :data =>{:confirm => "You sure?",
   :method => "delete"} %></p>
 
-<p><% link_to "Return to products", products_path %></p>
+<p><%= link_to "Return to products", products_path %></p>
 
 
 
 <%if @product.reviews.any?%>
+
 <h3>Reviews for <%= @product.name %></h3>
-<% @products.reviews.each do |review| %>
+
+<% @product.reviews.each do |review| %>
   <ul>
-    <li><% link_to review.name, product_review_path(@product, review) %></li>
+    <li>
+      <%= link_to review.name, product_review_path(@product, review) %>
+    </li>
   </ul>
   <% end %>
   <% else %>

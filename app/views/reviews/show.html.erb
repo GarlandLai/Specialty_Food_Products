@@ -1,14 +1,14 @@
 
-<h2>Product review for <%=product.name%></h2>
+<h2>Product review for <%=@product.name%></h2>
 
 <h2>Reviewed by <%= @review.name %></h2>
 <h2>Rating: <%= @review.rating %></h2>
 
 <p><%= @review.content_body %></p>
 
-<p><%= link_to "Edit review", edit_project_review_path(@project, @review) %></p>
-<p><%= link_to "Delete review", project_review_path(@project, @review),
+<p><%= link_to "Edit review", edit_product_review_path(@product, @review) %></p>
+<p><%= link_to "Delete review", product_review_path(@product, @review),
   :data => {:confirm => "Are you sure?",
   :method => "delete"} %></p>
 
-  <p><%= link_to "Return to project", project_path(@project) %></p>
+  <p><%= link_to "Return to product", product_path(@product) %></p>
