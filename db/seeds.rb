@@ -7,3 +7,11 @@ Product.destroy_all
 end
 
 p "Created #{Product.count} products"
+
+250.times do |index|
+  Product.reviews.create!(name: Faker::Name.name,
+    rating: Faker::Number.within(range: 1..5),
+    content_body: Faker::Lorem.characters(number: 50))
+end
+
+p "Created #{Product.reviews.count} reviews"
