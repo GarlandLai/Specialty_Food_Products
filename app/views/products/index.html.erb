@@ -1,7 +1,45 @@
 <h1>Mario's Specialty Food Products</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-<h2>Products</h2>
+<h2>Highest Reviewed Product</h2>
+
+<% if @products.most_reviews.any? %>
+<ul>
+  <%@products.most_reviews.each do |product| %>
+  <li><%=link_to product.name, product_path(product)%></li>
+  <%end%>
+</ul>
+<%else%>
+<p>No reviews at all.</p>
+<%end%>
+
+
+<h2>Products made in USA</h2>
+
+<% if @products.local.any? %>
+<ul>
+  <%@products.local.each do |product| %>
+  <li><%=link_to product.name, product_path(product)%></li>
+  <%end%>
+</ul>
+<%else%>
+<p>No current products made in USA.</p>
+<%end%>
+
+<h2>Most Recent Products</h2>
+
+<% if @products.most_recent.any? %>
+<ul>
+  <%@products.most_recent.each do |product| %>
+  <li><%=link_to product.name, product_path(product)%></li>
+  <%end%>
+</ul>
+<%else%>
+<p>No Products.</p>
+<%end%>
+
+
+<h2>All Products</h2>
 
 <% if @products.any? %>
 <ul>
