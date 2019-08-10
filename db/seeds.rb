@@ -6,11 +6,8 @@ Product.destroy_all
     cost: Faker::Number.within(range: 1..20),
     country_of_origin: Faker::Address.country_code_long)
 
-
-
-    if @product.persisted? == true
+    # if @product.persisted? == true
       5.times do |index|
-        @product = Product.ids
         @reviews = @product.reviews.create!(
           name: Faker::Name.name,
           rating: Faker::Number.within(range: 1..5),
@@ -18,11 +15,6 @@ Product.destroy_all
         )
       end
     end
-  end
-
-
-
-
-
+  # end
 
   p "Created #{Product.count} products"
