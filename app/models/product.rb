@@ -3,6 +3,18 @@ class Product < ApplicationRecord
   validates :name, :cost, :country_of_origin, presence: true
   validates :cost, numericality: true
 
+  scope :product, -> {where(country_of_origin: "USA")}
+
+  scope :three_most_recent, -> {order(created_at: :desc).limit(3)}
+
+  scope :most_reviews, -> {(
+  select("products.id, products.name, products.cost, product.country_of_origin, count(reviews.id) as reviews_count")
+  .joins(:reviews)
+  .group("products.id")
+  .order("reviews_count DESC")
+  .limit(1)
+  )}
+
   before_save(:titleize_product)
 
   private
