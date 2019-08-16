@@ -13,9 +13,6 @@
  */
 @import "bootstrap";
 
-body {
-  background-color: grey;
-}
 
 .jumbotron {
   background-image: url('specialty.jpg');
@@ -30,6 +27,22 @@ body {
   text-align: center;
 }
 
-.card {
-  background-color: green;
+#card4 {
+  background-color: #B0DC7A;
+}
+
+#card1 {
+  background-color: #FE8F77;
+  height: 175px;
+  width: auto;
+}
+#card2 {
+  background-color: #FEF590;
+  height: 175px;
+  width: auto;
+}
+#card3 {
+  background-color: #FDB768;
+  height: 175px;
+  width: auto;
 }

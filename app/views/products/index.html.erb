@@ -12,7 +12,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <div class="card">
+          <div class="card" id="card1">
             <h3 class="card-title">Highest Reviewed Product</h3>
             <div class="card-body">
               <% if @products.most_reviews.any? %>
@@ -28,7 +28,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card">
+          <div class="card" id="card2">
             <h3 class="card-title">USA Products</h3>
             <div class="card-body">
               <% if @products.local.any? %>
@@ -44,7 +44,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card">
+          <div class="card" id="card3">
             <h3 class="card-title">Recent Products</h3>
             <div class="card-body">
               <% if @products.most_recent.any? %>
@@ -64,7 +64,7 @@
     <br>
     <div class="row">
       <div class="col-md-6">
-        <div class="card">
+        <div class="card" id="card4">
           <h3 class="card-title">All Products</h3>
           <div class="card-body">
             <% if @products.any? %>
