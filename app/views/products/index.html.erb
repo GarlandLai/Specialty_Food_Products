@@ -56,8 +56,10 @@
       </div>
     </div>
     <br>
+
     <div class="row">
-      <div class="col-md-6">
+
+      <div class="col-md-4">
         <div class="card" id="card4">
           <h3 class="card-title">All Products</h3>
           <div class="card-body">
@@ -71,10 +73,60 @@
             <p>There are no current products</p>
             <%end%>
             <br>
-            <p><strong><%= link_to "Add a new product", new_product_path %><strong></p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-8">
+        <div class="card">
+          <h3 class="card-title">Gallery</h3>
+          <div class="card-body">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <ol class ="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <%= image_tag 'fish.jpg'%>
+                </div>
+
+                <div class="carousel-item">
+                  <%= image_tag 'bread.jpg'%>
+                </div>
+
+
+                <div class="carousel-item">
+                  <%= image_tag 'cheese.jpg'%>
+                </div>
+
+                <div class="carousel-item">
+                  <%= image_tag 'produce.jpg'%>
+                </div>
+
+                <div class="carousel-item">
+                  <%= image_tag 'spice.jpg'%>
+                </div>
+              </div>
+              <a class="left-carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right-carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <br>
+    <p id="add_product"><strong><%= link_to "Add a new product", new_product_path %><strong></p>
+    </div>
+
 </body>
