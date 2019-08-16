@@ -5,6 +5,7 @@
   <%= csrf_meta_tags %>
   <%= csp_meta_tag %>
 
+
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 </head>
@@ -16,6 +17,9 @@
     <%= render 'devise/menu/registration_items' %>
     <%= render 'devise/menu/login_items' %>
   </ul>
+  <div class="jumbotron" float='center'>
+    <h1>Mario's Specialty Food Products</h1>
+  </div>
   <%= yield %>
 </body>
 </html>
