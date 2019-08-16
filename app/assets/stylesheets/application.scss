@@ -13,6 +13,10 @@
  */
 @import "bootstrap";
 
+body {
+  background-color: grey;
+}
+
 .jumbotron {
   background-image: url('specialty.jpg');
   width: 700px;
@@ -27,5 +31,5 @@
 }
 
 .card {
-  background-color: lightgrey;
+  background-color: green;
 }
