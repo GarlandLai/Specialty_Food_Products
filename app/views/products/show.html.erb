@@ -1,14 +1,20 @@
-<h2><%= @product.name %></h2>
-<h3><%= @product.cost %></h3>
-<h3><%= @product.country_of_origin %></h3>
+<div class="container">
+  <br>
+<div class="col-md-4">
+    <div class="card" id="product_card">
+      <h3 class="card-title"><%= @product.name %></h3>
+      <div class="card-body">
+
+<h4>Price: <%= @product.cost %></h4>
+<h4>Origin: <%= @product.country_of_origin %></h4>
+</div>
 
 <p><%= link_to "Edit", edit_product_path(@product) %></p>
 <p><%= link_to "Delete", product_path(@product),
   :data =>{:confirm => "You sure?",
   :method => "delete"} %></p>
 
-<p><%= link_to "Return to products", products_path %></p>
-
+</div>
 
 
 <%if @product.reviews.any?%>
@@ -27,3 +33,7 @@
   <% end %>
 
   <p><strong><%= link_to "Add a review", new_product_review_path(@product) %></strong></p>
+
+<p><%= link_to "Return to products", products_path %></p>
+
+</div>

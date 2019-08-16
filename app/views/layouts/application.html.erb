@@ -9,7 +9,7 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 </head>
-
+<div class="container">
 <body>
   <%= flash[:alert] %>
   <%= flash[:notice] %>
@@ -20,6 +20,8 @@
   <div class="jumbotron" float='center'>
     <h1>Mario's Specialty Food Products</h1>
   </div>
+  <br>
   <%= yield %>
 </body>
+</div>
 </html>
