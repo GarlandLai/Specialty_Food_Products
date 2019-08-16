@@ -13,7 +13,6 @@
  */
 @import "bootstrap";
 
-
 .jumbotron {
   background-image: url('specialty.jpg');
   width: 700px;
@@ -21,13 +20,10 @@
   margin: auto;
   text-align: center;
 }
-
 .card-title {
   font-weight: bold;
   text-align: center;
 }
-
-
 #card1 {
   background-color: #FE8F77;
   height: 175px;
@@ -43,12 +39,10 @@
   height: 175px;
   width: auto;
 }
-
 #card4 {
   background-color: #B0DC7A;
   align: center;
 }
-
 #product_card {
   background-color: #FEAB6D;
 }
