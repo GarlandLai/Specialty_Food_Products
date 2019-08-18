@@ -79,8 +79,8 @@
 
 
       <div class="col-md-8">
-        <div class="card">
-          <h3 class="card-title">Gallery</h3>
+        <!-- <div class="card" id="slide"> -->
+          <!-- <h3 class="card-title">Gallery</h3> -->
           <div class="card-body">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
               <ol class ="carousel-indicators">
@@ -89,27 +89,26 @@
                 <li data-target="#myCarousel" data-slide-to="2"></li>
                 <li data-target="#myCarousel" data-slide-to="3"></li>
                 <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <%# <%= image_tag 'fish.jpg'%> %>
+                  <%= image_tag 'coco.jpg'%>
                 </div>
-
                 <div class="carousel-item">
-                  <%# <%= image_tag 'bread.jpg'%> %>
+                  <%= image_tag 'bread.jpg'%>
                 </div>
-
-
                 <div class="carousel-item">
-                  <%# <%= image_tag 'cheese.jpg'%> %>
+                  <%= image_tag 'cheese.jpg'%>
                 </div>
-
                 <div class="carousel-item">
-                  <%# <%= image_tag 'produce.jpg'%> %>
+                  <%= image_tag 'produce.jpg'%>
                 </div>
-
                 <div class="carousel-item">
-                  <%# <%= image_tag 'spice.jpg'%> %>
+                  <%= image_tag 'spices.jpg'%>
+                </div>
+                <div class="carousel-item">
+                  <%= image_tag 'caviar.jpg'%>
                 </div>
               </div>
               <a class="left-carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -124,9 +123,8 @@
           </div>
         </div>
       </div>
-    </div>
+    <!-- </div> -->
     <br>
     <p id="add_product"><strong><%= link_to "Add a new product", new_product_path %><strong></p>
     </div>
-
-</body>
+  </body>
