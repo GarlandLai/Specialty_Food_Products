@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/apple/Desktop/specialty_food_products/spec/features/add_products_pages_spec.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/spec/features/add_products_pages_spec.rb": [
         1,
         1,
         null,
@@ -22,20 +22,23 @@
         1,
         null,
         null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
         null,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/spec/rails_helper.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/spec/rails_helper.rb": [
         null,
         null,
         1,
@@ -107,14 +110,14 @@
         null,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/config/environment.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/apple/Desktop/specialty_food_products/config/application.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/config/application.rb": [
         1,
         null,
         1,
@@ -149,13 +152,13 @@
         null,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/config/boot.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/config/boot.rb": [
         1,
         null,
         1,
         1
       ],
-      "/Users/apple/Desktop/specialty_food_products/config/environments/test.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/config/environments/test.rb": [
         1,
         null,
         null,
@@ -203,7 +206,7 @@
         null,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/config/initializers/application_controller_renderer.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/config/initializers/application_controller_renderer.rb": [
         null,
         null,
         null,
@@ -213,7 +216,7 @@
         null,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/config/initializers/assets.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -229,7 +232,7 @@
         null,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/config/initializers/backtrace_silencers.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -238,7 +241,7 @@
         null,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/config/initializers/content_security_policy.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/config/initializers/content_security_policy.rb": [
         null,
         null,
         null,
@@ -265,14 +268,14 @@
         null,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/config/initializers/cookies_serializer.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/config/initializers/cookies_serializer.rb": [
         null,
         null,
         null,
         null,
         1
       ],
-      "/Users/apple/Desktop/specialty_food_products/config/initializers/devise.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/config/initializers/devise.rb": [
         null,
         null,
         null,
@@ -573,13 +576,13 @@
         null,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/config/initializers/filter_parameter_logging.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/apple/Desktop/specialty_food_products/config/initializers/inflections.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -597,13 +600,13 @@
         null,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/config/initializers/mime_types.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/config/initializers/wrap_parameters.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -619,7 +622,7 @@
         null,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/config/routes.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/config/routes.rb": [
         1,
         1,
         1,
@@ -628,7 +631,7 @@
         null,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/app/models/user.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/app/models/user.rb": [
         1,
         null,
         null,
@@ -636,87 +639,87 @@
         null,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/app/models/application_record.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/app/controllers/application_controller.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/app/controllers/application_controller.rb": [
         1,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/app/helpers/application_helper.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/app/channels/application_cable/channel.rb": [
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/apple/Desktop/specialty_food_products/app/channels/application_cable/connection.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/app/channels/application_cable/channel.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/app/controllers/products_controller.rb": [
-        1,
-        1,
-        null,
-        1,
-        3,
-        3,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        0,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        null,
-        null,
-        1,
-        0,
-        0,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        null,
-        0,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        null,
-        null,
-        1,
+      "/Users/Guest/Desktop/Specialty_Food_Products/app/channels/application_cable/connection.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/app/controllers/reviews_controller.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/app/controllers/products_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        5,
+        5,
+        null,
+        null,
+        1,
+        2,
+        2,
+        null,
+        null,
+        1,
+        2,
+        2,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        1,
+        2,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/Specialty_Food_Products/app/controllers/reviews_controller.rb": [
         1,
         1,
         1,
@@ -770,33 +773,33 @@
         null,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/app/jobs/application_job.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/app/jobs/application_job.rb": [
         1,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/app/mailers/application_mailer.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/app/mailers/application_mailer.rb": [
         1,
         1,
         1,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/app/models/product.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/app/models/product.rb": [
         1,
         1,
         1,
         1,
+        null,
+        7,
+        null,
+        7,
+        null,
+        1,
+        null,
+        null,
+        null,
         null,
         5,
         null,
-        5,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        3,
-        null,
         null,
         1,
         null,
@@ -806,7 +809,7 @@
         null,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/app/models/review.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/app/models/review.rb": [
         1,
         1,
         1,
@@ -821,7 +824,7 @@
         null,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/spec/models/product_spec.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/spec/models/product_spec.rb": [
         1,
         null,
         1,
@@ -837,7 +840,7 @@
         null,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/spec/models/review_spec.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/spec/models/review_spec.rb": [
         1,
         null,
         1,
@@ -850,7 +853,7 @@
         2,
         null
       ],
-      "/Users/apple/Desktop/specialty_food_products/spec/models/user_spec.rb": [
+      "/Users/Guest/Desktop/Specialty_Food_Products/spec/models/user_spec.rb": [
         null,
         null,
         null,
@@ -858,6 +861,6 @@
         null
       ]
     },
-    "timestamp": 1565991479
+    "timestamp": 1566425102
   }
 }
